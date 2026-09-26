@@ -36,7 +36,7 @@ A reusable SQL view connects customer information to purchase activity. Five ana
 **📈 Visualization:**
 
 Customer purchase reach and average net revenue
-![alt text](01_customer_reach.png)
+![alt text](images/01_customer_reach.png)
 
 **📊 Key Findings:**
 
@@ -59,7 +59,7 @@ Customer purchase reach and average net revenue
 **📈 Visualization:**
 
 Customer share compared with net revenue share by value segment
-![alt text](<02_customer_segmentation (1).png>)
+![alt text](<images/02_customer_segmentation (1).png>)
 **📊 Key Findings:**
 
 - **High value:** 12,372 customers (**25.0%** of purchasing customers) generated **$135.4M**, or **65.6%** of recorded net revenue. Average historical revenue per customer was **$10,946**.
@@ -83,7 +83,7 @@ Customer share compared with net revenue share by value segment
 **📈 Visualization:**
 
 New customers and first-purchase-day revenue by cohort year
-![alt text](03_first_purchase_cohorts.png)
+![alt text](images/03_first_purchase_cohorts.png)
 **📊 Key Findings:**
 
 - New customers fell from **9,010 in 2022** to **5,890 in 2023**, a **34.6% decrease**.
@@ -107,7 +107,7 @@ New customers and first-purchase-day revenue by cohort year
 **📈 Visualization:**
 
 Monthly net revenue and revenue per purchasing customer
-![alt text](04_monthly_revenue_and_buyer_value.png)
+![alt text](images/04_monthly_revenue_and_buyer_value.png)
 **📊 Key Findings:**
 
 - Annual net revenue fell from **$44.9M in 2022** to **$33.1M in 2023**, a **26.2% decrease**.
@@ -131,7 +131,7 @@ Monthly net revenue and revenue per purchasing customer
 **📈 Visualization:**
 
 Six-month customer activity status by acquisition cohort
-![alt text](05_six_month_inactivity_by_cohort.png)
+![alt text](images/05_six_month_inactivity_by_cohort.png)
 **📊 Key Findings:**
 
 - Of **46,913 eligible customers**, **42,472 (90.5%)** had not purchased within the last six months. **4,441 (9.5%)** had purchased.
