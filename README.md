@@ -23,7 +23,7 @@ A reusable SQL view connects customer information to purchase activity. Five ana
 - Used a window function to identify each customer's first purchase date and acquisition year.
 - Reused the resulting view across the segmentation, cohort, monthly, and inactivity analyses.
 
-🖥️ Query: [View.sql](Scripts/View.sql)
+🖥️ Query: [View.sql](View.sql)
 
 ### 1. Customer Reach and Average Revenue
 
@@ -31,7 +31,7 @@ A reusable SQL view connects customer information to purchase activity. Five ana
 - Compared that figure with the average across all customer records, including those without a matched sale.
 - Reconciled the results with the segmentation totals to identify the number of customers with and without recorded purchases.
 
-🖥️ Query: [customer_net_revenue.sql](Scripts/customer_net_revenue.sql)
+🖥️ Query: [customer_net_revenue.sql](customer_net_revenue.sql)
 
 **📈 Visualization:**
 
@@ -54,7 +54,7 @@ Customer purchase reach and average net revenue
 - Used the 25th and 75th percentiles to assign customers to Low, Mid, and High-value segments.
 - Compared each segment's share of customers with its share of net revenue.
 
-🖥️ Query: [customer_segmentation.sql](Scripts/customer_segmentation.sql)
+🖥️ Query: [customer_segmentation.sql](customer_segmentation.sql)
 
 **📈 Visualization:**
 
@@ -78,7 +78,7 @@ Customer share compared with net revenue share by value segment
 - Counted new customers and calculated revenue recorded **on their first purchase date**.
 - Compared first-purchase-day revenue per new customer across annual cohorts.
 
-🖥️ Query: [cohort_analysis_1.sql](Scripts/cohort_analysis_1.sql)
+🖥️ Query: [cohort_analysis_1.sql](cohort_analysis_1.sql)
 
 **📈 Visualization:**
 
@@ -102,7 +102,7 @@ New customers and first-purchase-day revenue by cohort year
 - Divided monthly revenue by monthly purchasing customers.
 - Used trailing 12-month averages in the visualization to make the underlying trend easier to see.
 
-🖥️ Query: [cohort_analysis_2.sql](Scripts/cohort_analysis_2.sql)
+🖥️ Query: [cohort_analysis_2.sql](cohort_analysis_2.sql)
 
 **📈 Visualization:**
 
@@ -126,7 +126,7 @@ Monthly net revenue and revenue per purchasing customer
 - Labeled customers **Active** if their most recent purchase was within six months of the dataset's latest order date; otherwise, labeled them **Churned** in the SQL output.
 - Included only customers whose first purchase occurred before the six-month cutoff.
 
-🖥️ Query: [churned_customers.sql](Scripts/churned_customers.sql)
+🖥️ Query: [churned_customers.sql](churned_customers.sql)
 
 **📈 Visualization:**
 
